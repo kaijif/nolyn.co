@@ -63,9 +63,9 @@ export const Footer = () => {
                             <div className="footer--logo grid gap-8">
                                 <Link href="/">
                                     <Image
-                                        src="/nutritrack.svg"
+                                        src="/img/logo.svg"
                                         alt="logo"
-                                        className="h-10 w-auto"
+                                        className="h-11 w-auto"
                                         height="25"
                                         width="100"
                                         priority
@@ -127,16 +127,9 @@ export const Footer = () => {
             <SectionContainer className="footer-credits relative z-10">
                 <div className="wrap wrap-px py-6">
                     <p className="my-0">
-                        © {year} Nutritrack. All rights reserved{" - "}
+                        © {year} Nolyn. All rights reserved{" - "}
                         <span className="font-normal">
                             A template by{" "}
-                            <Link
-                                className="transition-colors duration-300 hover:underline"
-                                href="https://chrstnl.com"
-                                target="_blank"
-                            >
-                                chrstnl.
-                            </Link>
                         </span>
                     </p>
                 </div>

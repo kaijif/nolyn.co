@@ -20,14 +20,15 @@ export const HomeBanner = () => {
                 {/* Appear Second */}
                 <MotionBTTContainer transition={{ delay: 0.4, duration: 0.5 }}>
                     <PageTitle className="text-center mx-auto" type="heavy">
-                        Stop arm cameras. Modernized.
+                        Stop stop-arm violations without breaking the bank.{" "}
+
                     </PageTitle>
                 </MotionBTTContainer>
                 {/* Appear Third */}
                 <MotionBTTContainer transition={{ delay: 0.6, duration: 0.5 }}>
                     <Content className="text-center" alignment="center">
                         <p>
-                            Stop stop-arm violations without breaking the budget.{" "}
+                        Our first priority is your students's safety. Not profits.
                         </p>
                     </Content>
                     <div className="mt-6 mb-16 text-center">
