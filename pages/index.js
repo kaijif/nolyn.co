@@ -45,12 +45,8 @@ export default function Home() {
                             </PageTitle>
                             <Content className="text-center" alignment="center">
                                 <p>
-                                    Hey there! Welcome to Nolyn, the
-                                    ultimate nutrition meal planner powered by
-                                    Notion. We&apos;ve got some awesome features
-                                    lined up to make your nutrition journey a
-                                    piece of cake (pun intended). Check them
-                                    out:
+                                    Don't like paying exorbitant prices for stop-arm cameras? Cool. We don't either. That's why we created Nolyn.
+                                    Nolyn is the next generation of stop-arm cameras. 
                                 </p>
                             </Content>
                             <ContentImage />
