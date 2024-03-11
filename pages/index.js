@@ -16,6 +16,8 @@ import {
     CardImage,
     Card
 } from "@components/Card";
+import { Icon } from "@iconify/react";
+
 
 export default function Home() {
     return (
@@ -41,12 +43,11 @@ export default function Home() {
                                 className="text-center mx-auto"
                                 type="default"
                             >
-                                Stop arm cameras. Modernized.
+                                Simple. Easy. Affordable.
                             </PageTitle>
                             <Content className="text-center" alignment="center">
                                 <p>
-                                    Don't like paying exorbitant prices for stop-arm cameras? Cool. We don't either. That's why we created Nolyn.
-                                    Nolyn is the next generation of stop-arm cameras. 
+                                    Don't like paying exorbitant prices for stop-arm cameras? We didn't either. That's why we created Nolyn, the next generation of stop-arm cameras, built by bus riders, for bus riders. 
                                 </p>
                             </Content>
                             <ContentImage />
@@ -57,27 +58,18 @@ export default function Home() {
                         transition={{ delay: 0.2, duration: 0.5 }}
                     >
                         <SectionContainer className="feature-tabs">
-                            <BadgeGroup alignment="center">
-                                <BadgeMessage>More Features</BadgeMessage>
-                                <BadgeIcon icon="twemoji:waving-hand" />
-                            </BadgeGroup>
                             <PageTitle
                                 className="text-center mx-auto"
                                 type="default"
                             >
-                                Master Your Meal Planning and Nutrition Journey
+                                Don't take our word for it.
                             </PageTitle>
                             <Content className="text-center" alignment="center">
                                 <p>
-                                    Our comprehensive Notion template designed
-                                    to empower you on your meal planning and
-                                    nutrition journey. With our user-friendly
-                                    features, customizable layouts, and seamless
-                                    recipe integration, taking control of your
-                                    meals has never been easier.
+                                    Hear what our customers have to say about Nolyn.
                                 </p>
                             </Content>
-                            <CardGroup className="grid scroll-m-24 gap-8 grid-cols-1 max-w-4xl mx-auto mt-24 md:grid-cols-2">
+                            {/* <CardGroup className="grid scroll-m-24 gap-8 grid-cols-1 max-w-4xl mx-auto mt-24 md:grid-cols-2">
                                 <Card className="col-span-1 text-primary-900">
                                     <CardBody className="w-full bg-white-600/20 p-12">
                                         <CardImage
@@ -120,7 +112,7 @@ export default function Home() {
                                         </p>
                                     </CardBody>
                                 </Card>
-                            </CardGroup>
+                            </CardGroup> */}
                         </SectionContainer>
                     </MotionBTTContainer>
                     {/* Testimonials */}
@@ -131,14 +123,10 @@ export default function Home() {
                             id="testimonials"
                             className="benefits"
                         >
-                            <BadgeGroup alignment="left">
-                                <BadgeMessage>Testimonials</BadgeMessage>
-                                <BadgeIcon icon="twemoji:waving-hand" />
-                            </BadgeGroup>
-                            <PageTitle className="" type="default">
+                            {/* <PageTitle className="" type="default">
                                 This is what our customers have to say about
                                 this template
-                            </PageTitle>
+                            </PageTitle> */}
                             <Columns />
                         </SectionContainer>
                     </MotionBTTContainer>
@@ -147,19 +135,32 @@ export default function Home() {
                         transition={{ delay: 0.2, duration: 0.5 }}
                     >
                         <SectionContainer id="faq" className="faq">
-                            <BadgeGroup alignment="center">
+                            {/* <BadgeGroup alignment="center">
                                 <BadgeMessage>FAQ</BadgeMessage>
-                            </BadgeGroup>
+                            </BadgeGroup> */}
                             <PageTitle
                                 className="text-center mx-auto"
                                 type="default"
                             >
-                                Got some burning questions about Nolyn?{" "}
+                                Get Nolyn today.{" "}
                                 <br></br>
-                                <br></br>No worries! We&apos;ve got the answers
-                                you need:
+                                <br></br>
                             </PageTitle>
-                            <Accordion />
+                            <Content className="text-center" alignment="center">
+                                <p>
+                                And join hundreds of other school districts who have made the switch to the future of stop arm cameras
+                                </p>
+                                <a
+                                role="button"
+                                href="mailto:thefuka2@gmail.com"
+                                className="btn btn--secondary padding-x-8 padding-y-4 mt-8"
+                            >
+                                Get a quote today
+                                <Icon icon="material-symbols:arrow-forward-rounded" />
+                            </a>
+                            </Content>
+
+                            {/* <Accordion /> */}
                         </SectionContainer>
                     </MotionBTTContainer>
                 </SectionContainer>

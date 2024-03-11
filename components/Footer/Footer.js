@@ -6,7 +6,7 @@ import { Icon } from "@iconify/react";
 
 const DATA = [
     {
-        title: "Template",
+        title: "Nolyn",
         items: [
             {
                 label: "Features",
@@ -26,23 +26,8 @@ const DATA = [
         title: "Company",
         items: [
             {
-                label: "About",
-                href: "https://github.com/christian-luntok/",
-                target: "_blank"
-            },
-            {
-                label: "Twitter",
-                href: "https://github.com/christian-luntok/",
-                target: "_blank"
-            },
-            {
-                label: "Instagram",
-                href: "https://github.com/christian-luntok/",
-                target: "_blank"
-            },
-            {
-                label: "Facebook",
-                href: "https://github.com/christian-luntok/",
+                label: "Investor Relations",
+                href: "/investor_relations.txt",
                 target: "_blank"
             }
         ]
@@ -127,9 +112,8 @@ export const Footer = () => {
             <SectionContainer className="footer-credits relative z-10">
                 <div className="wrap wrap-px py-6">
                     <p className="my-0">
-                        © {year} Nolyn. All rights reserved{" - "}
+                        © {year} Nolyn. All rights reserved.
                         <span className="font-normal">
-                            A template by{" "}
                         </span>
                     </p>
                 </div>

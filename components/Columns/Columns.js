@@ -8,28 +8,26 @@ const ColumnData = [
         title: "Emily J.",
         icon: "carbon:user-avatar-filled-alt",
         content:
-            "NutriPlan has revolutionized my meal planning and nutrition journey. With its intuitive Notion template, I can effortlessly plan my meals, track my nutrition, and stay on top of my health goals. It's truly a game-changer!"
+            "Nolyn has revolutionized the way we handle school bus safety in our district. The AI-powered stop arm cameras are not only cutting-edge but also incredibly cost-effective. We've saved a significant amount of resources while enhancing our enforcement capabilities. The customer service from Nolyn is top-notch, always responsive and ready to assist. Truly the future of stop arm cameras!"
     },
     {
         id: uuid(),
         title: "Jason F.",
         icon: "carbon:user-avatar-filled-alt",
         content:
-            "I've tried various meal planning tools, but NutriPlan stands out from the rest. The customizable layouts and seamless recipe integration make it a breeze to create delicious and healthy meals. It's become an essential part of my wellness routine."
+            "As a law enforcement officer, efficiency is key, and Nolyn has made our job much easier. The AI technology is a game-changer, making enforcement smoother and more accurate. What's even better is the cost – Nolyn is budget-friendly without compromising on quality. The customer service team has been exceptional, addressing our needs promptly and professionally. Nolyn is the future of stop arm cameras, no doubt."
     },
     {
         id: uuid(),
         title: "Miguel J.",
         icon: "carbon:user-avatar-filled-alt",
-        content:
-            "NutriPlan has made meal planning and tracking nutrition so much easier and enjoyable. The comprehensive features and user-friendly interface have helped me stay on track with my health goals. I highly recommend it to anyone looking for a convenient and effective solution."
+        content: "Being a parent, the safety of our children is paramount. Nolyn's stop arm cameras have given us peace of mind, knowing that the latest AI technology is actively working to keep our kids safe. What's impressive is not just the product but the affordability. Nolyn has made advanced safety measures accessible to all. Their customer service is fantastic – responsive and friendly. Highly recommend for any school district!"
     },
     {
         id: uuid(),
         title: "Kim L.",
         icon: "carbon:user-avatar-filled-alt",
-        content:
-            "I can't imagine my nutrition journey without NutriPlan. It has simplified the way I plan my meals and track my progress. The ability to customize layouts and easily integrate recipes has made healthy eating a breeze. It's been a true lifesaver!"
+        content: "Implementing Nolyn in our school district has been a game-changer for us. The AI capabilities have made enforcement more effective, and the cost savings compared to alternatives are significant. The transition was smooth, thanks to the excellent support from the Nolyn team. Nolyn is not just a product; it's a solution that's changing the landscape of stop arm cameras for the better."
     }
 ];
 
