@@ -54,10 +54,10 @@ export default function Home() {
                         </SectionContainer>
                     </MotionBTTContainer>
                     {/* Card Container Tabs */}
-                    <MotionBTTContainer
+                    {/* <MotionBTTContainer
                         transition={{ delay: 0.2, duration: 0.5 }}
                     >
-                        {/* <SectionContainer className="feature-tabs">
+                        <SectionContainer className="feature-tabs">
                             <PageTitle
                                 className="text-center mx-auto"
                                 type="default"
@@ -113,8 +113,8 @@ export default function Home() {
                                     </CardBody>
                                 </Card>
                             </CardGroup>
-                        </SectionContainer> */}
-                    </MotionBTTContainer>
+                        </SectionContainer>
+                    </MotionBTTContainer> */}
                     {/* Testimonials */}
                     <MotionBTTContainer
                         transition={{ delay: 0.2, duration: 0.5 }}
