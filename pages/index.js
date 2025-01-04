@@ -116,20 +116,17 @@ export default function Home() {
                         </SectionContainer>
                     </MotionBTTContainer> */}
                     {/* Testimonials */}
-                    <MotionBTTContainer
+                    {/* <MotionBTTContainer
                         transition={{ delay: 0.2, duration: 0.5 }}
                     >
                         <SectionContainer
                             id="testimonials"
                             className="benefits"
                         >
-                            {/* <PageTitle className="" type="default">
-                                This is what our customers have to say about
-                                this template
-                            </PageTitle> */}
+
                             <Columns />
                         </SectionContainer>
-                    </MotionBTTContainer>
+                    </MotionBTTContainer> */}
                     {/* Accordions */}
                     <MotionBTTContainer
                         transition={{ delay: 0.2, duration: 0.5 }}
