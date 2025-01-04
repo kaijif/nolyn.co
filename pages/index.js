@@ -57,7 +57,7 @@ export default function Home() {
                     <MotionBTTContainer
                         transition={{ delay: 0.2, duration: 0.5 }}
                     >
-                        <SectionContainer className="feature-tabs">
+                        {/* <SectionContainer className="feature-tabs">
                             <PageTitle
                                 className="text-center mx-auto"
                                 type="default"
@@ -69,7 +69,7 @@ export default function Home() {
                                     Hear what our customers have to say about Nolyn.
                                 </p>
                             </Content>
-                            {/* <CardGroup className="grid scroll-m-24 gap-8 grid-cols-1 max-w-4xl mx-auto mt-24 md:grid-cols-2">
+                            <CardGroup className="grid scroll-m-24 gap-8 grid-cols-1 max-w-4xl mx-auto mt-24 md:grid-cols-2">
                                 <Card className="col-span-1 text-primary-900">
                                     <CardBody className="w-full bg-white-600/20 p-12">
                                         <CardImage
@@ -112,8 +112,8 @@ export default function Home() {
                                         </p>
                                     </CardBody>
                                 </Card>
-                            </CardGroup> */}
-                        </SectionContainer>
+                            </CardGroup>
+                        </SectionContainer> */}
                     </MotionBTTContainer>
                     {/* Testimonials */}
                     <MotionBTTContainer
