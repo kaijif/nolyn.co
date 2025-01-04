@@ -70,5 +70,6 @@ export const Columns = () => {
         //         </div>
         //     ))}
         // </SectionContainer>
+        <div></div>
     );
 };
