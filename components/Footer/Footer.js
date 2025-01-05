@@ -13,10 +13,6 @@ const DATA = [
                 href: "#features"
             },
             {
-                label: "Testimonials",
-                href: "#testimonials"
-            },
-            {
                 label: "FAQ",
                 href: "#faq"
             }
